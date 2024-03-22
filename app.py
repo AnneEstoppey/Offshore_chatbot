@@ -38,7 +38,7 @@ def init_messages() -> None:
   if clear_button or "messages" not in st.session_state:
     st.session_state.messages = [
       SystemMessage(
-        content="you are a helpful AI assistant. Reply your answer in markdown format."
+        content="you are a helpful AI assistant. Write your answer in markdown format."
       )
     ]
 
@@ -58,6 +58,7 @@ def main() -> None:
   if user_input := st.chat_input("Input your question!"):
     st.session_state.messages.append(HumanMessage(content=user_input))
     with st.spinner("Bot is typing ..."):
+      reader = SimpleDirectoryReader(input_dir="./data/wells", recursive=True) #
       answer = get_answer(llm, user_input)
       print(answer)
     st.session_state.messages.append(AIMessage(content=answer))
