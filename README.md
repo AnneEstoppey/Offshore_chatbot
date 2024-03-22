@@ -8,7 +8,7 @@ We are exploring the possibility to build a chatbot with an open source Large La
 2) Add extra data (public) for fine-tuning for offshore activities on Norwegian continental shelf - under construction
 
 ## Install - requirements
-We installed a brand new Python environment from conda, Python version: **3.11.3**
+We created a brand new Python environment from conda, Python version: **3.11.3**
 
 We installed all the following libraries from PIP (at the time of creating the chatbot, we didn't succeed to install the 'llama' libraries from conda!)
 - langchain
