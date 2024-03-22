@@ -5,7 +5,7 @@ from llama_index.llms.llama_cpp.llama_utils import (
     messages_to_prompt,
     completion_to_prompt,
 )
-from langchain.schema import(SystemMessage, HumanMessage, AIMessage)
+from langchain.schema import SystemMessage, HumanMessage, AIMessage
 
 
 def init_page() -> None:
@@ -59,7 +59,6 @@ def main() -> None:
     st.session_state.messages.append(HumanMessage(content=user_input))
     with st.spinner("Bot is typing ..."):
       answer = get_answer(llm, user_input)
-      print(answer)
     st.session_state.messages.append(AIMessage(content=answer))
     
   messages = st.session_state.get("messages", [])
