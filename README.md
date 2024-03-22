@@ -17,7 +17,7 @@ We installed all the following libraries from PIP (at the time of creating the c
 - llama-cpp-python
 - streamlit
 
-**NOTE**: if you are using Windows, you will have to install Visual Studio Installer, and then install the Desktop development with C++, in order to be able to install and use the python libraries related to 'llama-ccp'.
+**NOTE**: if you are using Windows, you will have to install Visual Studio Installer, and then install the Desktop development with C++, in order to be able to install and use the python libraries related to 'llama-cpp' (where 'cpp' stands for 'C++').
 
 ## Data source
 LLM:
