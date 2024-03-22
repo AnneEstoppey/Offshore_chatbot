@@ -23,7 +23,12 @@ We installed all the following libraries from PIP (at the time of creating the c
 LLM:
 Huggingface language model (7 billion parameters): llama-2-7b-chat.Q2_K.gguf (size: 2.7 GB)
 
---> please check in the reference below as we have not included this model in this repo, you will have to download it from huggingface.
+--> please check in the references below as we have not included this model in this repo, you will have to download it from huggingface.
+
+## Example - first run!
+This is a first try to interact with the chatbot, directly towards the LLM, NO fine-tuning... Some facts are not exactly correct, but not too bad for a model of that size, working locally from my laptop!
+
+![screenshot_chatbot_question01](https://github.com/AnneEstoppey/Offshore_chatbot/assets/35219455/3cbc99c9-af20-40b2-b101-2ef23870ed92)
 
 ## References
 https://kavitmht.medium.com/create-a-chatbot-using-hugging-face-and-streamlit-9cbd9b90052b
