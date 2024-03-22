@@ -1,6 +1,6 @@
 # Offshore chatbot 🤖
 
-We are exploring the possibility to build a chatbot with and open source Large Language Model, locally on a 'every day' laptop (no GPU). Ultimately, we would like to 'fine-tune' the chatbot with extra public data, related to the energy industry on the continental shelf of Norway. 
+We are exploring the possibility to build a chatbot with an open source Large Language Model, locally on a 'every day' laptop (no GPU). Ultimately, we would like to 'fine-tune' the chatbot with extra public data, related to the energy industry on the continental shelf of Norway. 
 
 ## Steps
 
