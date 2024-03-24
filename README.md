@@ -6,7 +6,7 @@ Laptop configuration:
 - ThinkPad (Lenovo) T14s
 - Processor: 13th Gen Intel(R) Core(TM) i7-1355U, 1.70 GHz
 - RAM: 32 GB
-- Operating system: Windows 11
+- Operating system: Windows 11 Pro
 
 ## Results
 
