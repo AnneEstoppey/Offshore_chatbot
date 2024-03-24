@@ -2,10 +2,15 @@
 
 We are exploring the possibility to build a chatbot with an open source Large Language Model, locally on a 'every day' laptop (no GPU). Ultimately, we would like to 'fine-tune' the chatbot with extra public data, related to the energy industry on the continental shelf of Norway. 
 
-## Steps
+## Results
 
-1) Create the chatbot and test it on local - DONE
-2) Add extra data (public) for fine-tuning for offshore activities on Norwegian continental shelf - under construction
+We tried two different approaches:
+1) Implementing only a 7 billion parameters large language model from Huggingface (see below under 'Data source').
+2) Adding a document as text file with a selection of field information from SODIR (Continental Shelf Directorate, Norway).
+
+For the approach 1), the chatbot was only able to answer to generic questions, and for more detailed questions about specific fields, it was unable to answer anything. Also for the more generic questions we asked, the information returned in the reply was not 100% reliable. The reply time was about 25 seconds.
+
+For the approach 2), the chatbot was able to answer to much more specific questions about the selection of fields we compiled in the provided text file. Although the quality of the answers from the chatbox are satisfactory, the reply time is quite mediocre with waiting time over several minutes (~10 min). 
 
 ## Install - requirements
 We created a brand new Python environment from conda, Python version: **3.11.3**
