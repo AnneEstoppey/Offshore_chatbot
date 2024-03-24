@@ -17,15 +17,12 @@ def init_page() -> None:
 
 def select_llm() -> LlamaCPP:
     """Select the LLM model."""
-    # note: the original parameters are commented out,
-    # they are intended for GPU usage
     return LlamaCPP(
         model_path="./data/llm/llama-2-7b-chat.Q2_K.gguf",
         temperature=0,
         # temperature=0.1,
         max_new_tokens=256,
         # max_new_tokens=500,
-        # context_window=2500,
         context_window=3900,
         generate_kwargs={},
         # define model_kwargs to use with CPU
