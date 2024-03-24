@@ -22,8 +22,12 @@ We installed all the following libraries from PIP (at the time of creating the c
 ## Data source
 LLM:
 Huggingface language model (7 billion parameters): llama-2-7b-chat.Q2_K.gguf (size: 2.7 GB)
-
 --> please check in the references below as we have not included this model in this repo, you will have to download it from huggingface.
+
+FIELD data for Norwegian continental shelf:
+https://factpages.sodir.no/en/field/TableView/Description </br>
+Note that we had to compile a short sample of this table in a text file with only 5 fields for our project! </br>
+(see in the data/sodir subfolder)
 
 ## Example - first run!
 This is a first try to interact with the chatbot, directly towards the LLM, NO fine-tuning... Some facts are not exactly correct, but not too bad for a model of that size, working locally from my laptop!
