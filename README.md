@@ -56,8 +56,8 @@ Adding an extra document containing more detailed information:
 
 
 ## References
-https://kavitmht.medium.com/create-a-chatbot-using-hugging-face-and-streamlit-9cbd9b90052b
-https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF
-https://docs.llamaindex.ai/en/stable/examples/llm/llama_2_llama_cpp.html
-https://medium.com/@fradin.antoine17/3-ways-to-set-up-llama-2-locally-on-cpu-part-1-5168d50795ac
-https://stackoverflow.com/questions/77267346/error-while-installing-python-package-llama-cpp-python
+https://kavitmht.medium.com/create-a-chatbot-using-hugging-face-and-streamlit-9cbd9b90052b</br>
+https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF</br>
+https://docs.llamaindex.ai/en/stable/examples/llm/llama_2_llama_cpp.html</br>
+https://medium.com/@fradin.antoine17/3-ways-to-set-up-llama-2-locally-on-cpu-part-1-5168d50795ac</br>
+https://stackoverflow.com/questions/77267346/error-while-installing-python-package-llama-cpp-python</br>
