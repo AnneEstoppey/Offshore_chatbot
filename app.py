@@ -58,7 +58,6 @@ def main() -> None:
   if user_input := st.chat_input("Input your question!"):
     st.session_state.messages.append(HumanMessage(content=user_input))
     with st.spinner("Bot is typing ..."):
-      # create answer from the chat engine
       answer = get_answer(llm, user_input)
     st.session_state.messages.append(AIMessage(content=answer))
     
