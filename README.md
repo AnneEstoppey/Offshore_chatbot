@@ -38,7 +38,7 @@ We installed all the following libraries from PIP (at the time of creating the c
 ## Data source
 LLM:
 Huggingface language model (7 billion parameters): llama-2-7b-chat.Q2_K.gguf (size: 2.7 GB)</br>
---> 
+--> https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q2_K.gguf </br>
 
 FIELD data for Norwegian continental shelf:
 https://factpages.sodir.no/en/field/TableView/Description </br>
