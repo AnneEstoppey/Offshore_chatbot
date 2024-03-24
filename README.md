@@ -18,6 +18,11 @@ For the approach 1), the chatbot was only able to answer to generic questions, a
 
 For the approach 2), the chatbot was able to answer to much more specific questions about the selection of fields we compiled in the provided text file. Although the quality of the answers from the chatbox were satisfactory, the reply time was quite mediocre with waiting time over several minutes (~10 min). 
 
+## Conclusions
+
+Using a relatively small open source language model locally for generic purpose seems possible, still with some waiting time though (approximatively 20-25 seconds).
+As soon as we tried to implement some extra document to attempt fine-tuning, the processing time increased exponentially: 10 minutes or more, depending of the lenght of the document. In this case, using a laptop computer with only CPU is not recommended. Moving over to a machine with GPU (or using google colab?) is necessary.
+
 ## Install - requirements
 We created a brand new Python environment from conda, Python version: **3.11.3**
 
