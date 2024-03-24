@@ -24,8 +24,7 @@ def select_llm() -> LlamaCPP:
     temperature=0.1,
     max_new_tokens=256,
     # max_new_tokens=500,
-    context_window=2000,
-    # context_window=3900,
+    context_window=3900,
     generate_kwargs={},
     # define model_kwargs to use with CPU
     model_kwargs={"device": "cpu"},
