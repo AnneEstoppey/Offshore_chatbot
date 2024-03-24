@@ -21,7 +21,7 @@ For the approach 2), the chatbot was able to answer to much more specific questi
 ## Conclusions
 
 Using a relatively small open source language model locally for generic purpose seems possible, still with some waiting time though (approximatively 20-25 seconds).
-As soon as we tried to implement some extra document to attempt fine-tuning, the processing time increased exponentially: 10 minutes or more, depending of the lenght of the document. In this case, using a laptop computer with only CPU is not recommended. Moving over to a machine with GPU (or using google colab?) is necessary.
+As soon as we tried to implement some extra document to attempt fine-tuning, the processing time increased exponentially: 10 minutes or more, depending of the length of the document. In this case, using a laptop computer with only CPU is not recommended. Moving over to a machine with GPU (or using google colab?) is necessary.
 
 ## Install - requirements
 We created a brand new Python environment from conda, Python version: **3.11.3**
@@ -38,7 +38,7 @@ We installed all the following libraries from PIP (at the time of creating the c
 ## Data source
 LLM:
 Huggingface language model (7 billion parameters): llama-2-7b-chat.Q2_K.gguf (size: 2.7 GB)
---> please check in the references below as we have not included this model in this repo, you will have to download it from huggingface.
+https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF
 
 FIELD data for Norwegian continental shelf:
 https://factpages.sodir.no/en/field/TableView/Description </br>
@@ -58,6 +58,5 @@ Adding an extra document containing more detailed information:
 ## References
 https://kavitmht.medium.com/create-a-chatbot-using-hugging-face-and-streamlit-9cbd9b90052b
 https://docs.llamaindex.ai/en/stable/examples/llm/llama_2_llama_cpp.html
-https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF
 https://medium.com/@fradin.antoine17/3-ways-to-set-up-llama-2-locally-on-cpu-part-1-5168d50795ac
 https://stackoverflow.com/questions/77267346/error-while-installing-python-package-llama-cpp-python
