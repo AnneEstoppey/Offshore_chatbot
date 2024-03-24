@@ -22,10 +22,14 @@ def select_llm() -> LlamaCPP:
   return LlamaCPP(
     model_path="./data/llm/llama-2-7b-chat.Q2_K.gguf",
     temperature=0.1,
-    max_new_tokens=500,
-    context_window=3900,
+    max_new_tokens=256,
+    # max_new_tokens=500,
+    context_window=2000,
+    # context_window=3900,
     generate_kwargs={},
-    model_kwargs={"n_gpu_layers":1},
+    # define model_kwargs to use with CPU
+    model_kwargs={"device": "cpu"},
+    #model_kwargs={"n_gpu_layers":1},
     messages_to_prompt=messages_to_prompt,
     completion_to_prompt=completion_to_prompt,
     verbose=True,
