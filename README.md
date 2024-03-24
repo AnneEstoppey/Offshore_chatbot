@@ -45,6 +45,10 @@ Using ONLY the LLM, we see that the first answer is a bit strange (I don't think
 
 ![screenshot_chatbot_question03](https://github.com/AnneEstoppey/Offshore_chatbot/assets/35219455/588535ec-833b-49f6-81f4-1a747f296d43)
 
+Adding an extra document containing more detailed information:
+
+![screenshot_chatbot_question04](https://github.com/AnneEstoppey/Offshore_chatbot/assets/35219455/8fd2cfba-872e-433b-9e0b-a0133ff6fc29)
+
 
 ## References
 https://kavitmht.medium.com/create-a-chatbot-using-hugging-face-and-streamlit-9cbd9b90052b
