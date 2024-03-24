@@ -38,7 +38,7 @@ We installed all the following libraries from PIP (at the time of creating the c
 ## Data source
 LLM:
 Huggingface language model (7 billion parameters): llama-2-7b-chat.Q2_K.gguf (size: 2.7 GB)</br>
---> https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF
+--> 
 
 FIELD data for Norwegian continental shelf:
 https://factpages.sodir.no/en/field/TableView/Description </br>
@@ -57,6 +57,7 @@ Adding an extra document containing more detailed information:
 
 ## References
 https://kavitmht.medium.com/create-a-chatbot-using-hugging-face-and-streamlit-9cbd9b90052b
+https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF
 https://docs.llamaindex.ai/en/stable/examples/llm/llama_2_llama_cpp.html
 https://medium.com/@fradin.antoine17/3-ways-to-set-up-llama-2-locally-on-cpu-part-1-5168d50795ac
 https://stackoverflow.com/questions/77267346/error-while-installing-python-package-llama-cpp-python
