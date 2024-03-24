@@ -29,7 +29,7 @@ def select_llm() -> LlamaCPP:
     generate_kwargs={},
     # define model_kwargs to use with CPU
     model_kwargs={"device": "cpu"},
-    #model_kwargs={"n_gpu_layers":1},
+    # model_kwargs={"n_gpu_layers":1},
     messages_to_prompt=messages_to_prompt,
     completion_to_prompt=completion_to_prompt,
     verbose=True,
