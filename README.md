@@ -12,7 +12,7 @@ Laptop configuration:
 
 We tried two different approaches:
 1) Implementing only a 7 billion parameters large language model from Huggingface (see below under 'Data source').
-2) Adding a document as text file with a selection of field information from SODIR (Continental Shelf Directorate, Norway) for attempting 'fine-tuning'.
+2) Adding a document as text file with a selection of field information from SODIR (Continental Shelf Directorate, Norway), in order to attempt 'fine-tuning'.
 
 For the approach 1), the chatbot was only able to answer to generic questions, and for more detailed questions about specific fields, it was unable to answer anything. Also for the more generic questions that we asked, the information returned in the reply was not 100% reliable. The reply time was about 25 seconds.
 
